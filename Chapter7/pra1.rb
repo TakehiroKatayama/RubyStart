@@ -1,5 +1,5 @@
-def order
-  puts "カフェラテください"
+def order(item)
+  puts "#{item}ください"
 end
 
-order
+puts order("カフェラテ")
